@@ -46,7 +46,7 @@ export const Card: React.FunctionComponent = () => {
         </div>
       </form>
       <div>
-        {finalOutput != "" ? (
+        {finalOutput !== "" ? (
           <div className="solution">Decimal value: {finalOutput}</div>
         ) : (
           <div></div>
